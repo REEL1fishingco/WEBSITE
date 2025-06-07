@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background: transparent;
+    }
+    .floating-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #088F8F;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      font-style: italic;
+      font-weight: bold;
+      z-index: 9999;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    .floating-button:hover {
+      background-color: #e6be00;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://fareharbor.com/embeds/book/reel1llc/?full-items=yes" target="_blank" class="floating-button"><em>HOOK NOW!</em></a>
+</body>
+</html>
